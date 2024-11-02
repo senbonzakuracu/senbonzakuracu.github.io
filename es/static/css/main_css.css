@@ -1,0 +1,498 @@
+*:not(a){
+    cursor: default;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-repeat: repeat-y;
+    background: 100vw 100vh url(../images/fondo_web.jpeg);
+    
+}
+
+
+/* 
+@font-face{
+font-family: 'Ninja';
+src:url(../static/fonts/gang_of_three.ttf);
+font-weight: bold;
+font-style: bold;
+
+} */
+
+
+nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
+    background-color: white;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    padding: 0 4px;
+    margin: 0 5px;
+}
+
+.btn{
+    
+    font-size: 1.7vw;
+}
+
+#indice_page{
+    border-left: solid black 3px;
+    background-color: rgba(255, 255, 255, 0.685);
+    font-size: 1.7vw;   
+    padding-bottom: 1.4vw;
+}
+
+#indice_page a{
+    text-decoration: none;
+}
+
+#indice_page a:hover{
+    text-decoration: underline;
+}
+
+
+#indice_page button{
+    border-radius: 10px;
+    background-color: transparent;
+    color: black
+}
+
+
+#logo_nav {
+    width: 5vw;
+}
+
+main{
+    width: 60vw;
+    margin: auto
+}
+
+#logo_main{
+    width: 100%;
+    max-width: 900px;
+    
+}
+
+h1{
+    display: none;
+}
+
+#presentation{
+
+    margin-top: 10%;
+    margin-bottom: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.section_container{
+    margin: 10% auto ;
+    width: 65%;
+    min-width: 430px;
+    font-size: 1.3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding:4% 0;
+    box-shadow: none;
+    transition: box-shadow 0.3s;
+}
+
+.section_container .text{
+    padding: 2% 5%;
+}
+
+.section_container_img{
+    width: 100%;
+}
+
+.section_container:hover{
+    box-shadow: 5px 5px 20px 2px;
+    cursor: default;
+}
+
+
+section #samurai{
+    max-width: 350px;
+    width: 20vw;
+    left: -10vw;
+    bottom: 11vh;
+    z-index: 100;
+}
+
+section #naruto{
+    max-width: 230px;
+    width: 15vw;
+    right:-8vw;
+    bottom: 0;
+    
+}
+
+#expresion{
+    margin: 10vh 0 0 0;
+}
+
+#expresion h3{
+    font-size: 2vw;
+}
+
+
+#dialogo{
+    width: 40vw;
+    
+}
+
+#dialogo_escrito{
+    font-size: 1.6vw;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    width: 82%;
+}
+
+#dialogo_img{
+    width: 100%;
+}
+
+#character-dialogo{
+    position: absolute;
+    width: 25vw;
+    top: 0;
+    left: 5%;
+}
+
+#kanji{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    display: none;
+}
+
+
+
+#quote div{
+    background-color: black;
+    position: relative;
+    width: 99.4vw;
+    padding: 10%;
+    left: -20vw;
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+}
+
+/* hombre */
+.turista:first-child{
+    position: absolute;
+    width: 20%;
+    min-width: 150px;
+    max-width: 200px ;
+    top: -50%;
+    left: 0;
+}
+
+/* mujer */
+.turista:last-child{
+    position: absolute;
+    width: 20%;
+    min-width: 130px;
+    max-width: 190px ;
+    bottom: -60%;
+    right: -8.5%;
+}
+
+#ubicacion_img{
+    position: absolute;
+    width: 90px;
+    min-width: 90px;
+    z-index: 1;
+    top: 1;
+    left: 3vw;
+}
+
+#carrucel{
+    width: 100%;
+    padding: 0;
+}
+
+
+.carousel-item img{
+    height: 60vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 3%;
+}
+
+.grid_item:nth-child(2){
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 3;
+    height: 100%;
+}
+
+.grid_item{
+    align-content: center;
+}
+
+.grid_item img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    justify-items: center;
+    background-color: red;
+}
+
+footer{
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+#recorte{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-image: url(../images/recorte.png);
+    background-repeat: repeat-x;
+    height: 10vw;
+    top: -11%;
+}
+
+#contacto-text{
+    font-size: 3rem;
+}
+
+#informacion-contacto h3, #informacion-contacto h4{
+    font-size: 1.8rem;
+}
+
+
+#informacion-contacto a{
+    font-size: 1.7rem;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 174, 255);
+    padding: 10px;
+}
+
+#informacion-contacto a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    .btn{
+        font-size: 1.3rem;
+    }
+
+    #logo_nav{
+        
+        width: 15vw;
+    }
+
+    #presentation{
+
+        margin: 30vw auto;
+
+    }
+
+    #indice_page{
+        font-size: 5vw;
+    }
+
+    main{
+        width: 90%;
+        margin: auto;
+    }
+
+    
+    .section_container{
+        min-width: auto;
+        text-wrap: balance;
+        margin: 10% auto ;
+        width: 90%;
+        font-size: 1.3rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        padding:4% 0;
+        box-shadow: none;
+        transition: box-shadow 0.3s;
+    }
+
+    #cultura{
+        text-wrap: balance;
+    }
+
+    section #samurai{
+        position: absolute;
+        width: 40vw;
+        left: -10vw;
+        top: -13vh;
+        z-index: 100;
+    }
+
+    section #naruto{
+        position: absolute;
+        width: 25vw;
+        right: 0;
+        bottom: -10vw;
+        
+    }
+
+    #dialogo_escrito, #dialogo_escrito h3{
+        font-size: 2.3vw;
+        width: 90%;
+        text-wrap: balance;
+    }
+
+
+    #dialogo_img{
+        position: relative;
+        width: 130%;
+        right: 6vw;
+    }
+
+    #character-dialogo{
+        position: absolute;
+        width: 45vw;
+        top: 0;
+        left: 50;
+    }
+    
+
+    #quote div{
+        margin: 0;
+        box-sizing: border-box;
+        background-color: black;
+        position: relative;
+        left: -4vw;
+        top: 0;
+        width: 99vw;
+        padding: 10%;
+        color: white;
+        font-size: 1vw;
+        text-align: center;
+    }
+
+    /* hombre */
+    .turista:first-child{
+        position: absolute;
+        width: 26vw;
+        min-width: 90px;
+        top: -18vw;
+        left: -7vw;
+    }
+    
+    /* mujer */
+    .turista:last-child{
+        position: absolute;
+        width: 20vw;
+        min-width: 70px;
+        bottom: -12vw;
+        right: 0;
+    }
+
+    #ubicacion_img{
+        position: absolute;
+        width: 60px;
+        min-width: 60px;
+        z-index: 1;
+        top: 60%;
+        left: 3vw;
+    }
+
+    #revelde{
+        margin: 0;
+        padding: 0 0;
+    }
+
+    .grid{
+        width: 102vw;
+        position: relative;
+        left: -7vw;
+        gap: 5px;
+    }
+    
+    #recorte{
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        background-image: url(../images/recorte.png);
+        background-repeat: repeat-x;
+        height: 10vh;
+        top: -7%;
+    }
+
+    #contacto-text{
+        font-size: 8.5vw;
+        padding: 5%;
+    }
+
+    #informacion-contacto{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+    .section_contacto{
+        margin: 3% auto;
+    }
+
+    #informacion-contacto h3, #informacion-contacto h4{
+        font-size: 1.8rem;
+    }
+
+    .section_contacto a{
+        font-size: 1.6rem;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(0, 153, 255);
+        display: inline-block;
+        margin: 2%;
+    }
+
+    #informacion-contacto a{
+        font-size: 2rem;
+    }
+    
+    #informacion-contacto a:hover{
+        text-decoration: underline;
+    }
+
+
+}   
